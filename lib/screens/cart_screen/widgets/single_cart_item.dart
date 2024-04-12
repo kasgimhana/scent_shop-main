@@ -48,7 +48,6 @@ class _SingleCartItemState extends State<SingleCartItem> {
           Expanded(
             flex: 2,
             child: SizedBox(
-              height: 140,
               child: Padding(
                 padding: const EdgeInsets.all(12.0),
                 child: Stack(

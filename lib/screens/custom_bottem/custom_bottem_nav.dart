@@ -3,6 +3,7 @@ import 'package:persistent_bottom_nav_bar/persistent_tab_view.dart';
 import 'package:scent_shop/screens/account_screen/account_screen.dart';
 import 'package:scent_shop/screens/auth_ui/home/home.dart';
 import 'package:scent_shop/screens/cart_screen/cart_screen.dart';
+import 'package:scent_shop/screens/favourtite_screen/favourite_screen.dart';
 import 'package:scent_shop/screens/oder_screen/oder_screen.dart';
 
 class CustomBottem extends StatefulWidget {

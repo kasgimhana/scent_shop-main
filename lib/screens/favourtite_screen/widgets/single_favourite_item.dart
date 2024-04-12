@@ -37,7 +37,6 @@ class _SingleCartItemState extends State<SingleFavouriteItem> {
           Expanded(
             flex: 2,
             child: SizedBox(
-              height: 140,
               child: Padding(
                 padding: const EdgeInsets.all(12.0),
                 child: Stack(

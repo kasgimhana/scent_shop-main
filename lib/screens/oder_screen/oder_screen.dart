@@ -22,14 +22,14 @@ class OrderScreen extends StatelessWidget {
           if (snapshot.connectionState == ConnectionState.waiting) {
             return const Center(
               child: CircularProgressIndicator(),
-            ); // Center
+            );
           }
           if (snapshot.data!.isEmpty ||
               snapshot.data == null ||
               !snapshot.hasData) {
             return const Center(
               child: Text("No orders Found"),
-            ); // Center
+            );
           }
 
           return Padding(

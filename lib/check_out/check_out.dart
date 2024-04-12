@@ -47,7 +47,7 @@ class _CheckoutState extends State<Checkout> {
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(12.0),
                 border: Border.all(
-                  color: Theme.of(context).primaryColor,
+                  color: Colors.blue,
                   width: 3.0,
                 ),
               ),
@@ -85,7 +85,7 @@ class _CheckoutState extends State<Checkout> {
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(12.0),
                 border: Border.all(
-                  color: Theme.of(context).primaryColor,
+                  color: Colors.blue,
                   width: 3.0,
                 ),
               ),

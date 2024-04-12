@@ -96,7 +96,7 @@ class FirebaseFirestoreHelper {
       });
       documentReference.set({
         "products": list.map((e) => e.toJson()),
-        "status": "Pending",
+        "status": "pending",
         "totalPrice": totalPrice,
         "payment": payment,
         "orderId": documentReference.id,
@@ -115,10 +115,11 @@ class FirebaseFirestoreHelper {
     try {
       QuerySnapshot<Map<String, dynamic>> querySnapshot =
           await _firebaseFirestore
-              .collection("userOrders")
+              .collection("usersOrders")
               .doc(FirebaseAuth.instance.currentUser!.uid)
               .collection("orders")
               .get();
+
       List<OrderModel> orderList = querySnapshot.docs
           .map((element) => OrderModel.fromJson(element.data()))
           .toList();

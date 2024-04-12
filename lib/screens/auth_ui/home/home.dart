@@ -123,8 +123,8 @@ class _HomeState extends State<Home> {
                                               BorderRadius.circular(20.0),
                                         ),
                                         child: SizedBox(
-                                          height: 100,
-                                          width: 100,
+                                          height: 130,
+                                          width: 120,
                                           child: Image.network(e.image),
                                         ),
                                       ),
@@ -187,8 +187,8 @@ class _HomeState extends State<Home> {
                                           ),
                                           Image.network(
                                             singleProduct.image,
-                                            height: 70,
-                                            width: 70,
+                                            height: 150,
+                                            width: 150,
                                           ),
                                           const SizedBox(
                                             height: 12.0,

@@ -18,7 +18,8 @@ class AboutUs extends StatelessWidget {
       ),
       body: const Padding(
         padding: EdgeInsets.all(12.0),
-        child: Text("data"),
+        child: Text(
+            "A perfume is a liquid mixture used to emit a pleasant odour. It is formed from fragrant essential oils derived from plants and spices or synthetic aromatic compounds.Cosmetic fragrances applied to a person’s body to emit a pleasant smell include perfume, cologne, and aftershave"),
       ),
     );
   }

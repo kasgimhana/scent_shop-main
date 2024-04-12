@@ -1,6 +1,7 @@
 import 'package:scent_shop/constants/assets_images.dart';
 import 'package:scent_shop/constants/routes.dart';
 import 'package:scent_shop/screens/auth_ui/login/login.dart';
+import 'package:scent_shop/screens/auth_ui/sign_up/signup.dart';
 import 'package:scent_shop/widgets/primary_button/primary_button.dart';
 import 'package:scent_shop/widgets/top_titles/top_titles.dart';
 import 'package:flutter/cupertino.dart';
@@ -64,7 +65,9 @@ class Welcome extends StatelessWidget {
             ),
             PrimaryButton(
               title: "Sign Up",
-              onPressed: () {},
+              onPressed: () {
+                Routes.instance.push(widget: const SignUp(), context: context);
+              },
             ),
           ],
         ),
